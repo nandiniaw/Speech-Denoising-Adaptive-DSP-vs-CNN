@@ -47,6 +47,17 @@ Performance evaluated using:
 - TensorFlow / Keras
 - Matplotlib
 
+## Dataset
+
+**Speech:**
+- [TIMIT Acoustic-Phonetic Corpus](https://catalog.ldc.upenn.edu/LDC93S1)
+- Files used: SA, SI, SX sentences sampled at 16kHz
+
+**Noise:**
+- AR(1) colored noise — synthetically generated
+- AWGN — synthetically generated
+- Babble noise — real-world background speech (`baby-cooing-06.wav`)
+  
 ## Author
 **Nandini Walia**
 B.Tech EEE, Vellore Institute of Technology
